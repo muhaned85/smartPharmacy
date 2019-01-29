@@ -87,13 +87,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -141,6 +134,22 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\Base\" />
+    <Folder Include="Common\Repository\" />
+    <Folder Include="Infrastraction\Bck\" />
+    <Folder Include="Infrastraction\DAL\" />
+    <Folder Include="Infrastraction\Notfications\Email\" />
+    <Folder Include="Infrastraction\Notfications\SMS\" />
+    <Folder Include="Infrastraction\Validations\" />
+    <Folder Include="Pharmacy\Accounting\" />
+    <Folder Include="Pharmacy\Customer\" />
+    <Folder Include="Pharmacy\Employee\" />
+    <Folder Include="Pharmacy\Invoices\" />
+    <Folder Include="Pharmacy\Item\" />
+    <Folder Include="Pharmacy\Payment\" />
+    <Folder Include="Pharmacy\Storge\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
